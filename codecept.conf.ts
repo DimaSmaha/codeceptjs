@@ -18,7 +18,8 @@ export const config: CodeceptJS.MainConfig = {
   },
   include: {
     I: "./steps_file",
-    homepagePage: "./pages/homepage.ts",
+
+    homePage: "./pages/homePage.ts",
   },
   name: "codeceptjs",
 };
